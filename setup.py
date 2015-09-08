@@ -23,7 +23,8 @@ setup(
     packages=find_packages('.'),
     install_requires=[
         'setuptools',
-        'enum34>=1.0'
+        'enum34>=1.0',
+        'requests>=2.7'
     ],
     namespace_packages=['themis'],
     entry_points={
