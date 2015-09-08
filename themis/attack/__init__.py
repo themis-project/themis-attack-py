@@ -106,7 +106,6 @@ class Carrier(object):
 
             if r.status_code == 400:
                 code = r.json()
-                self.logger.info(code)
                 if code == Result.ERR_INVALID_IDENTITY:
                     raise InvalidIdentityError()
                 elif code == Result.ERR_CONTEST_NOT_STARTED:
@@ -123,3 +122,4 @@ class Carrier(object):
                 raise GenericError()
         except Exception:
             self.logger.error('An exception occured', exc_info=exc_info())
+            raise

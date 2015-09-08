@@ -25,5 +25,10 @@ setup(
         'setuptools',
         'enum34>=1.0'
     ],
-    namespace_packages=['themis']
+    namespace_packages=['themis'],
+    entry_points={
+        'console_scripts': [
+            'themis-attack = themis.attack.main:run',
+        ]
+    }
 )
