@@ -30,5 +30,15 @@ results = carrier.attack(*flags)  # [0, 0] - stands for two successful attacks
 To get information about all available result codes, please check out [Themis Attack Protocol](https://github.com/aspyatkin/themis-attack-protocol).  
 **Note:** `themis.attack.Carrier.attack` method can throw exceptions. These exceptions are subclasses of `themis.attack.AttackBaseError` class.
 
+## See also
+- [themis-finals](https://github.com/aspyatkin/themis-finals)
+- [themis-finals-guidelines](https://github.com/aspyatkin/themis-finals-guidelines)
+- [themis-finals-infrastructure](https://github.com/aspyatkin/themis-finals-infrastructure)
+- [themis-attack-protocol](https://github.com/aspyatkin/themis-attack-protocol)
+- [themis-attack-result](https://github.com/aspyatkin/themis-attack-result)
+- [themis-checker-server](https://github.com/aspyatkin/themis-checker-server)
+- [themis-checker-result](https://github.com/aspyatkin/themis-checker-result)
+- [themis-checker-py](https://github.com/aspyatkin/themis-checker-py)
+
 ## License
 MIT @ [Alexander Pyatkin](https://github.com/aspyatkin)
