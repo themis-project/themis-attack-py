@@ -1,4 +1,7 @@
 # themis-attack-py
+[![Latest Version](https://img.shields.io/pypi/v/themis.attack.svg?style=flat-square)](https://pypi.python.org/pypi/themis.attack)
+[![License](https://img.shields.io/github/license/aspyatkin/themis-attack-py.svg?style=flat-square)](https://github.com/aspyatkin/themis-attack-py/blob/master/LICENSE)
+[![Dependencies status](https://img.shields.io/gemnasium/aspyatkin/themis-attack-py.svg?style=flat-square)](https://gemnasium.com/aspyatkin/themis-attack-py)  
 [Themis Finals](https://github.com/aspyatkin/themis-finals) attack helper library.
 
 ## Installation
